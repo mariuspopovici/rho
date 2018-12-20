@@ -1,6 +1,6 @@
 # Rho
 
-A small library to helps estimate air density (rho) based on air temperature, pressure and relative humidity (RH)
+A small library which helps estimate air density (rho) based on air temperature, pressure and relative humidity (RH)
 
 ## Installation
 
@@ -29,7 +29,7 @@ A small library to helps estimate air density (rho) based on air temperature, pr
 ```
     Output should be 1.1984
 
-Result is reported in kg/m<sup>3</sup> and optionally results can be converted to lb/ft<sup>3</sup>.
+Result is reported in kg/m<sup>3</sup> and can be optionally converted to lb/ft<sup>3</sup>.
 
 ```javascript
     var rho = require('@mariuspopovici/rho');
