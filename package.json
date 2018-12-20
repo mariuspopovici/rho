@@ -1,0 +1,32 @@
+{
+  "name": "rho",
+  "version": "0.1.0",
+  "description": "Estimate air density (Rho) based on air temperature, pressure and dew point.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariuspopovici/rho.git"
+  },
+  "keywords": [
+    "rho",
+    "air",
+    "density",
+    "calculator",
+    "air density calculator",
+    "air density",
+    "cycling"
+  ],
+  "author": "Marius Popovici <marius@popovici.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariuspopovici/rho/issues"
+  },
+  "homepage": "https://github.com/mariuspopovici/rho#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
