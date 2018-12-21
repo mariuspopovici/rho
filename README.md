@@ -1,6 +1,6 @@
 # Rho
 
-A small library which helps estimate air density (rho) based on air temperature, pressure and relative humidity (RH)
+A small library which helps estimate air density (rho) based on air temperature, pressure and dew point.
 
 ## Installation
 
