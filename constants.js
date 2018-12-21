@@ -1,4 +1,4 @@
-exports.METRIc = 'metric';
+exports.METRIC = 'metric';
 exports.IMPERIAL = 'imperial'; 
 
 // Herman Wobus polynomials
