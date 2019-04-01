@@ -13,7 +13,7 @@ A small library which helps estimate air density (rho) based on air temperature,
 * __air pressure__ Air pressure in hPA or inHg depending on units type
 * __dew point__ Air temperature in degrees Celcius (°C) or Fahrenheit (°F) depending on 
 * __units of measurement__ Optional, defaults to _metric_. Change to _imperial_ to indicate that inputs are in _imperial_ units of measurement.
-
+* __altitude__ Optional, defaults to 0. Specify altitude to if pressure is measured at sea level.
 ### Examples
 
 ```javascript
@@ -22,6 +22,14 @@ A small library which helps estimate air density (rho) based on air temperature,
     var density = rho(68.9, 30.1, 68.9, 'imperial');
 ```
     Output should be 1.1984
+
+```javascript
+    var rho = require('@mariuspopovici/rho');
+    // calculate Rho adjusted for altitude
+    var density = rho(29, 1010, 20, 'metric', 2000);
+```
+    Output should be 0.9402
+
 ``` javascript    
     var rho = require('@mariuspopovici/rho');
     // calculate Rho with values expressed in metric units (default)
