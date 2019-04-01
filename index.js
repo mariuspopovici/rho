@@ -104,6 +104,6 @@ function convertPressureToMetric(pressure) {
  * Convert altitude to metric.
  * @param {number} altitude - Altitude in ft.
  */
-function convertPressureToMetric(altitude) {
+function convertAltitudeToMetric(altitude) {
   return altitude / 3.281;
 }

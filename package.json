@@ -1,6 +1,6 @@
 {
   "name": "@mariuspopovici/rho",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Estimate air density (Rho) based on air temperature, pressure and dew point.",
   "main": "index.js",
   "scripts": {
