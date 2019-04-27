@@ -15,3 +15,6 @@ exports.c9 = -0.30994571 * Math.pow(10,-19);
 
 exports.rd = 287.0531; // gas constant for dry air
 exports.rv = 461.4964; //  gas constant for water vapor
+exports.g = 9.80665; // gravitational acceleration
+exports.M = 0.0289644 // the molar mass of air
+exports.R = 8.31432 //  universal gas constant
