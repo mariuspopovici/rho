@@ -34,7 +34,7 @@ module.exports = function (temperature, pressure, dewPoint, units = constants.ME
   const tdew = units === constants.IMPERIAL ? convertTemperatureToMetric(dewPoint) : dewPoint;
 
   if (altitude > 0) {
-    let h = constants.IMPERIAL ? convertAltitudeToMetric(altitude) : altitude;
+    let h = units === constants.IMPERIAL ? convertAltitudeToMetric(altitude) : altitude;
     ap = pressureAtAltitude(ap, h, t);
   }
 

@@ -15,6 +15,11 @@ describe('#rho', function() {
         expect(result.toFixed(4)).to.equal('0.9402');
     });
 
+    it('test with known values, adjust to altitude', function() {
+        var result = rho(11.05, 1003, -7, 'metric', 1855);
+        expect(result.toFixed(4)).to.equal('0.9820');
+    });
+
     it('test with known values and imperial units', function() {
         var result = rho(68.9, 30.1, 68.9, 'imperial');
         expect(result.toFixed(4)).to.equal('1.1984');
