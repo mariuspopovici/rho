@@ -1,6 +1,6 @@
 # Rho
 
-A small library which helps estimate air density (rho) based on air temperature, pressure and dew point.
+A small library which helps estimate air density (rho) based on air temperature, pressure, dew point and altitude.
 
 ## Installation
 
@@ -13,7 +13,7 @@ A small library which helps estimate air density (rho) based on air temperature,
 * __air pressure__ Air pressure in hPA or inHg depending on units type
 * __dew point__ Air temperature in degrees Celcius (°C) or Fahrenheit (°F) depending on 
 * __units of measurement__ Optional, defaults to _metric_. Change to _imperial_ to indicate that inputs are in _imperial_ units of measurement.
-* __altitude__ Optional, defaults to 0. Specify altitude to if pressure is measured at sea level.
+* __altitude__ Optional, defaults to 0. Specify altitude if pressure is measured at sea level.
 ### Examples
 
 ```javascript
